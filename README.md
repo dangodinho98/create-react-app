@@ -1,21 +1,25 @@
-![React Logo](https://github.com/vercel/vercel/blob/master/packages/frameworks/logos/react.svg)
+# Create React App example
 
-# React Example
+## How to use
 
-This directory is a brief example of a [React](https://reactjs.org/) app with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction) that can be deployed with Vercel and zero configuration.
+Download the example [or clone the repo](https://github.com/mui-org/material-ui):
 
-## Deploy Your Own
-
-Deploy your own React project, along with Serverless Functions, with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/master/examples/create-react-app-functions)
-
-_Live Example: https://create-react-app.now-examples.now.sh/_
-
-### How We Created This Example
-
-To get started with React, along with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction), with Vercel, you can use the [Create-React-App CLI](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app) to initialize the project:
-
-```shell
-$ npx create-react-app my-app
+```sh
+curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2 material-ui-master/examples/create-react-app
+cd create-react-app
 ```
+
+Install it and run:
+
+```sh
+npm install
+npm start
+```
+
+or:
+
+[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui-org/material-ui/tree/master/examples/create-react-app)
+
+## The idea behind the example
+
+This example demonstrates how you can use [Create React App](https://github.com/facebookincubator/create-react-app).
