@@ -137,10 +137,10 @@ export default () => {
         ]}
       />
       <FAQ
-        subheading={<Subheading>FAQS</Subheading>}
+        subheading={<Subheading>FAQs</Subheading>}
         heading={
           <>
-            You have <HighlightedText>Questions ?</HighlightedText>
+            Você tem alguma <HighlightedText>dúvida?</HighlightedText>
           </>
         }
         faqs={[

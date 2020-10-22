@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import Login from "pages/Login.js";
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
@@ -70,11 +69,11 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/#">Quem Somos?</NavLink>
-      <NavLink href="/#">Blog</NavLink>
-      <NavLink href="/#">Cases</NavLink>
-      <NavLink href="../pages/ContactUs">Contato</NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href={Login}>Login</PrimaryLink>
+      <NavLink href="/AboutUs">Quem Somos?</NavLink>
+      <NavLink href="/blog">Blog</NavLink>
+      <NavLink href="/Cases">Cases</NavLink>
+      <NavLink href="/ContactUs">Contato</NavLink>
+      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`} href="/login">Área do Cliente</PrimaryLink>
     </NavLinks>
   ];
 
